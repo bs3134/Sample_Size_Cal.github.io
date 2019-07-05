@@ -18,7 +18,7 @@ server <- shinyServer(function(input, output,session){
     p1 <- input$p1
     alpha <- input$alpha
     power = input$power
-    paste("The result is =", p0+p1+alpha+power)
+    paste("The result is =", ((qnorm(1-alpha)*sqrt(p0*(1-p0))+qnorm(power)*sqrt(p1*(1-p1)))/(p1-p0))^2)
   })
 })
 
