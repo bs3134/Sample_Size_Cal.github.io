@@ -6,6 +6,6 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Proportion test"
-      href: http://127.0.0.1:5459/
+      href: https://bs3134.shinyapps.io/sample_size_calgithub/
 output:
   html_document
