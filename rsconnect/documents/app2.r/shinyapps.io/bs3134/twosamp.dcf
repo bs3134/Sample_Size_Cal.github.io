@@ -1,0 +1,13 @@
+name: twosamp
+title: twosamp
+username:
+account: bs3134
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1012913
+bundleId: 2202212
+url: https://bs3134.shinyapps.io/twosamp/
+when: 1562319219.05375
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|_site.yml|about.html|about.Rmd|app.R|index.html|index.Rmd|README.html|README.md|site_libs

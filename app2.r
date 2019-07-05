@@ -1,3 +1,6 @@
+# Two sample continuous data sample size calculation
+
+
 rm(list = ls())
 library(shiny)
 ui = shinyUI(fluidPage(
