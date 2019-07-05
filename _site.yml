@@ -1,0 +1,11 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Proportion test"
+      href: http://127.0.0.1:5459/
+output:
+  html_document
