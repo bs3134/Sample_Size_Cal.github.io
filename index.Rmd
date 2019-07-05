@@ -1,7 +1,6 @@
 ---
-title: "Holy cow!"
+title: "Sample Size Calculation"
 ---
 
-### I have a webpage!
+### This webpage contains several calculators for different type of data. 
 
-And I can put all kinds of stuff on it!
