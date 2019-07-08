@@ -6,7 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "One Sample Prop test"
-      href: https://bs3134.shinyapps.io/sample_size_calgithub/
+      href: https://bs3134.shinyapps.io/twosampcon/
     - text: "Two Sample Continous"
       href: https://bs3134.shinyapps.io/twosamp/
 output:
