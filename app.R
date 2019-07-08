@@ -8,7 +8,7 @@ ui = shinyUI(fluidPage(
     numericInput("p1", "p1:", 0.5,min = 0, max = 1),
     numericInput("alpha", "significant level:", 0.05,min = 0, max = 1),
     numericInput("power", "power:", 0.8,min = 0, max = 1),
-    checkboxInput('check', label = 'if check then use proportion test', value = FALSE)
+    checkboxInput('check', label = 'if check then use one sample proportion test; if not, then use two sample proportion test', value = FALSE)
   ),
     textOutput("text_calc"))
 )
@@ -19,7 +19,7 @@ server = shinyServer(function(input, output,session){
     alpha = input$alpha
     power = input$power
     paste("The result is =", if (input$check){((qnorm(1-alpha)*sqrt(p0*(1-p0))+qnorm(power)*sqrt(p1*(1-p1)))/(p1-p0))^2}
-     else{0} )    
+     else{(2*((qnorm(alpha/2)+qnorm(1-power))^2)*((p0+p1)/2)*(1-(p0+p1)/2))/(p0-p1)^2} )    
   })
 })
 
