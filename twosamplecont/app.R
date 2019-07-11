@@ -2,7 +2,7 @@
 rm(list = ls())
 library(shiny)
 ui = shinyUI(fluidPage(
-  mainPanel(
+  sidebarPanel(
     numericInput("mu1", "mu1:",0.5, min = 0, max = 1),
     numericInput("mu2", "mu2:", 0.5,min = 0, max = 1),
     numericInput("alpha", "significant level:", 0.05,min = 0, max = 1),
@@ -10,8 +10,8 @@ ui = shinyUI(fluidPage(
     numericInput("delta", "delta:", 0.5),
     numericInput("sigma","sigma=",0.5),
     selectInput("choice", label = h3("Select test type"),choices = c("equality","equivalence","inferiority/superiority")
-    ),
-    textOutput("text_calc"))
+    )),
+    mainPanel(fluidRow(column(3, verbatimTextOutput("text_calc"))))
 ))
 server = shinyServer(function(input, output,session){
   output$text_calc = renderText({
