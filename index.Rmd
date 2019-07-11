@@ -4,3 +4,4 @@ title: "Sample Size Calculation"
 
 ### This webpage contains several calculators for different type of data. 
 
+Mainly including One/two sample proportion test, one/two sample continous test and one/two sample survival test. Each one contains three tests: test for equality, test for equivalence and test for superiority/non-inferiority.
