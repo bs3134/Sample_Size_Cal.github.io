@@ -8,7 +8,9 @@ navbar:
     - text: "One Sample Prop test"
       href: https://bs3134.shinyapps.io/twosampcon/
     - text: "Two Sample Prop test"
-      href: https://bs3134.shinyapps.io/app3/      
+      href: https://bs3134.shinyapps.io/app3/  
+    - text: "One Sample Continuous test"
+      href: https://bs3134.shinyapps.io/twosamplecont/
     - text: "Two Sample Continuous test"
       href: https://bs3134.shinyapps.io/twosamp/
 
