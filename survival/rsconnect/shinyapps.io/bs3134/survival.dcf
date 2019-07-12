@@ -1,0 +1,13 @@
+name: survival
+title: survival
+username:
+account: bs3134
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1026485
+bundleId: 2223802
+url: https://bs3134.shinyapps.io/survival/
+when: 1562895092.41078
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: fu.r
