@@ -5,8 +5,8 @@ account: bs3134
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1021461
-bundleId: 2220960
+bundleId: 2223914
 url: https://bs3134.shinyapps.io/app3/
-when: 1562829435.7977
+when: 1562897875.51056
 asMultiple: FALSE
 asStatic: FALSE

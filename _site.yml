@@ -12,7 +12,7 @@ navbar:
     - text: "One Sample Continuous test"
       href: https://bs3134.shinyapps.io/twosamplecont/
     - text: "Two Sample Continuous test"
-      href: https://bs3134.shinyapps.io/twosamp/
+      href: https://bs3134.shinyapps.io/twocontinuous/
     - text: "Time-to-event Data"
       href: https://bs3134.shinyapps.io/survival/
 
