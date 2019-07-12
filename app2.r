@@ -4,6 +4,7 @@
 rm(list = ls())
 library(shiny)
 ui = shinyUI(fluidPage(
+  titlePanel("Two-sample Continuous Test"),
   sidebarPanel(
     numericInput("mu1", "mu1:",1),
     numericInput("mu2", "mu2:", 2),

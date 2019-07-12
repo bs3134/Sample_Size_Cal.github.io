@@ -3,6 +3,7 @@
 rm(list = ls())
 library(shiny)
 ui = shinyUI(fluidPage(
+  titlePanel("One-sample Proportion Test"),
   sidebarPanel(
     numericInput("p0", "p0:",0.5, min = 0, max = 1),
     numericInput("p1", "p1:", 0.5,min = 0, max = 1),

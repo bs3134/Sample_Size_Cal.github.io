@@ -5,6 +5,7 @@ rm(list = ls())
 
 library(shiny)
 ui = shinyUI(fluidPage(
+  titlePanel("Survival Analysis Sample Size"),
   sidebarPanel(
     numericInput("l1", "l1:",1),
     numericInput("l2", "l2:", 2),
