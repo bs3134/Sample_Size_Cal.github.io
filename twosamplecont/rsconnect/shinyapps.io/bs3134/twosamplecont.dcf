@@ -5,8 +5,8 @@ account: bs3134
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1024116
-bundleId: 2223927
+bundleId: 2232690
 url: https://bs3134.shinyapps.io/twosamplecont/
-when: 1562898165.07074
+when: 1563183240.13402
 asMultiple: FALSE
 asStatic: FALSE

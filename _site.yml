@@ -9,10 +9,8 @@ navbar:
       href: https://bs3134.shinyapps.io/twosampcon/
     - text: "Two Sample Prop test"
       href: https://bs3134.shinyapps.io/app3/  
-    - text: "One Sample Continuous test"
+    - text: "Continuous Data Sample Size Cal"
       href: https://bs3134.shinyapps.io/twosamplecont/
-    - text: "Two Sample Continuous test"
-      href: https://bs3134.shinyapps.io/twocontinuous/
     - text: "Time-to-event Data"
       href: https://bs3134.shinyapps.io/survival/
 
