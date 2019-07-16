@@ -5,7 +5,9 @@ library(ggplot2)
 ui = shinyUI(fluidPage(
   titlePanel("Spider Plot"),
   sidebarPanel(
-    fileInput("file1","Choose CSV File",multiple = FALSE)
+    fileInput("file1","Choose CSV File",multiple = FALSE),
+    helpText("The input data must contains several columns: time, percentChange, name, cstatus and treatment. PercentChange column is the tumor size change data. 
+             Cstatus column indicates if censored or not. Treatment column indicates different treatment groups. Name column is usually the id of patients.")
     ),
   mainPanel(plotOutput("Spiderplot"))))
 

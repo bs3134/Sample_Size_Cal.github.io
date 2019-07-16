@@ -5,8 +5,8 @@ account: bs3134
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1033274
-bundleId: 2235503
+bundleId: 2235613
 url: https://bs3134.shinyapps.io/Spiderplot/
-when: 1563247820.87376
+when: 1563251193.87096
 asMultiple: FALSE
 asStatic: FALSE
