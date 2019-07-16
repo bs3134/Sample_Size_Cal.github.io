@@ -14,7 +14,8 @@ ui = shinyUI(fluidPage(
     ),
     selectInput("choice2", label = h3("Select sample number"),choices = c("One-sample","Two-sample"))
   ),
-    mainPanel(fluidRow(column(3, verbatimTextOutput("text_calc"))))))
+    mainPanel(fluidRow(column(9, verbatimTextOutput("text_calc"))),
+              tags$head(tags$style("#text_calc{color:red; font-size:20px; font-style:italic;}")))))
 
 server = shinyServer(function(input, output,session){
   output$text_calc = renderText({

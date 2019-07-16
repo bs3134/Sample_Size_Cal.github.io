@@ -1,4 +1,4 @@
-# Two-sample prop.test
+
 
 rm(list = ls())
 library(shiny)
