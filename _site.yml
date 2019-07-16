@@ -5,10 +5,8 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "One Sample Prop test"
+    - text: "Binary Data Sample Size Cal (Prop test)"
       href: https://bs3134.shinyapps.io/twosampcon/
-    - text: "Two Sample Prop test"
-      href: https://bs3134.shinyapps.io/app3/  
     - text: "Continuous Data Sample Size Cal"
       href: https://bs3134.shinyapps.io/twosamplecont/
     - text: "Time-to-event Data"
