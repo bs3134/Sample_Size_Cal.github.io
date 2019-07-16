@@ -16,8 +16,8 @@ ui = shinyUI(fluidPage(
     numericInput("delta", "delta:",0.1),
     selectInput("choice", label = h3("Select test type"),choices = c("equality","equivalence","inferiority/superiority")
     )),
-  mainPanel(fluidRow(column(3, verbatimTextOutput("text_calc"))))
-))
+  mainPanel(fluidRow(column(9, verbatimTextOutput("text_calc"))),tags$head(tags$style("#text_calc{color:red; font-size:20px; font-style:italic;}")))))
+
 server = shinyServer(function(input, output,session){
   output$text_calc = renderText({
     

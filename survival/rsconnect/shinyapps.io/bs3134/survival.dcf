@@ -5,9 +5,9 @@ account: bs3134
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1026485
-bundleId: 2223908
+bundleId: 2235335
 url: https://bs3134.shinyapps.io/survival/
-when: 1562897782.57599
+when: 1563242775.20408
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: fu.r
