@@ -3,8 +3,6 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
     - text: "Binary Data Sample Size Cal (Prop test)"
       href: https://bs3134.shinyapps.io/twosampcon/
     - text: "Continuous Data Sample Size Cal"
