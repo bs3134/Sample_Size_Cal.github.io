@@ -12,7 +12,8 @@ ui = shinyUI(fluidPage(
     numericInput("delta", "delta:", 0.5),
     selectInput("choice1", label = h3("Select test type"),choices = c("equality","equivalence","inferiority/superiority")
     ),
-    selectInput("choice2", label = h3("Select sample number"),choices = c("One-sample","Two-sample"))),
+    selectInput("choice2", label = h3("Select sample number"),choices = c("One-sample","Two-sample")),
+    helpText("For test for equality method, delta is not required. Therefore type delta=0 when using test for equality")),
   mainPanel(fluidRow(column(9, verbatimTextOutput("text_calc"))),
             tags$head(tags$style("#text_calc{color:red; font-size:20px; font-style:italic;}")))    # change output size and color
 ))
