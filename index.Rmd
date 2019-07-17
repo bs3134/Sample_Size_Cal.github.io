@@ -1,12 +1,15 @@
 ---
 title: "Sample Size Calculation"
 ---
-
+<div style="margin-bottom:100px;">
+</div>
 ### This webpage contains several calculators for different type of data. 
 
 Mainly including One/two sample proportion test, one/two sample continous test and one/two sample survival test. Each one contains three tests: test for equality, test for equivalence and test for superiority/non-inferiority.
 
-### This webpage also contains plots used in clinical trials.
+<div style="margin-bottom:50px;">
+</div>
+### This webpage also contains plots widely used in clinical trials.
 
-There are two plots in this webpage. The first one is spider plot, and the second one is waterfall plot. Both plots can be used to detect the change of objects, such as tumor size percent change. 
-In the spider plot, x axis represents time, and y axis represents the percent change of tumor size. In the waterfall plot, x axis represents name (id), and y axis represents the maximum percent change of tumor size.
+There are two plots in this webpage. The first one is spider plot, and the second one is waterfall plot. Both plots can be used to detect the change of some objects, such as tumor size percent change. 
+In the spider plot, x axis represents time, and y axis represents the percent change of tumor size. You can find the relationship between tumor size change and time. In the waterfall plot, x axis represents name (id), and y axis represents the maximum percent change of tumor size. You can get an approximate reponse rate through the plot.
