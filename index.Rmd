@@ -1,6 +1,10 @@
 ---
 title: "Sample Size Calculation"
 ---
+
+author: Bihui Sun
+        (Summer Intern, Department of Biostatistics, HuaJia Biomedical Intelligence, Shenzhen, China)
+
 <div style="margin-bottom:100px;">
 </div>
 ### This webpage contains several calculators for different type of data. 

@@ -37,7 +37,7 @@ server = shinyServer(function(input, output,session){
       df=t(df[,-3])
         
       barplot(df["patient",], col=col, border=col, space=1,width=0.1,
-                    cex.axis=1.2, cex.lab=1.4)}
+                    cex.axis=1.2, cex.lab=1.4, ylim = c(-200,500))}
 })})
 shinyApp(ui = ui, server = server)
 

@@ -11,7 +11,7 @@ navbar:
       href: https://bs3134.shinyapps.io/twosamplecont/
     - text: "Time-to-event Data"
       href: https://bs3134.shinyapps.io/survival/
-    - text: "Spider plot for tumor burden change"
+    - text: "Spider plot and waterfall plot for tumor burden change"
       href: https://bs3134.shinyapps.io/Spiderplot/
 
 output:

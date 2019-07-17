@@ -15,7 +15,8 @@ ui = shinyUI(fluidPage(
     numericInput("accrualtime", "accrual time:",1),
     numericInput("delta", "delta:",0.1),
     selectInput("choice", label = h3("Select test type"),choices = c("equality","equivalence","inferiority/superiority")
-    )),
+    ),
+    helpText("For test for equality method, delta is not required. Therefore type delta=0 when using test for equality")),
   mainPanel(fluidRow(column(9, verbatimTextOutput("text_calc"))),tags$head(tags$style("#text_calc{color:red; font-size:20px; font-style:italic;}")))))
 
 server = shinyServer(function(input, output,session){
