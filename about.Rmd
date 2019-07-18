@@ -1,7 +1,0 @@
----
-title: "About"
----
-
-### About this site
-
-This is a calculatior which can help you get the required smallest sample size based on different methods in clinical trials.
