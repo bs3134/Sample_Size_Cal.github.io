@@ -2,8 +2,7 @@
 title: "Sample Size Calculation"
 ---
 
-author: Bihui Sun
-        (Summer Intern, Department of Biostatistics, HuaJia Biomedical Intelligence, Shenzhen, China)
+
 
 <div style="margin-bottom:100px;">
 </div>
@@ -17,3 +16,8 @@ Mainly including One/two sample proportion test, one/two sample continous test a
 
 There are two plots in this webpage. The first one is spider plot, and the second one is waterfall plot. Both plots can be used to detect the change of some objects, such as tumor size percent change. 
 In the spider plot, x axis represents time, and y axis represents the percent change of tumor size. You can find the relationship between tumor size change and time. In the waterfall plot, x axis represents name (id), and y axis represents the maximum percent change of tumor size. You can get an approximate reponse rate through the plot.
+
+<div style="margin-bottom:200px;">
+</div>
+author: Bihui Sun
+        (Summer Intern, Department of Biostatistics, HuaJia Biomedical Intelligence, Shenzhen, China)
